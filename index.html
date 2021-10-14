@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Landing Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="row py-3">
+                <img class="logo-untels" src="img/untels.jpeg" alt="swimmers">
+            </div>
+        </nav>
+        <div class="row py-5" >
+            <div class="col font-weight-bold py-5">
+                <div class="text-white">
+                    <h1>Hello! I'm Giancarlo</h1>
+                    <p>Soy un estudiante universitario peruano que actualmente esta cursando el septimo ciclo de la carrera profesional de Ingenieria de Sistemas en la Universidad Nacional Tecnologica de Lima Sur</p>
+                </div>
+                <div class="row text-white">
+                    <label class="px-0">Enviame un correo si estas interesado:</label>
+                    <div class="input-group-append px-0 py-2">
+                        <a href="mailto:cegaje17@gmail.com">
+                            <button class="btn btn-outline-info w-50" type="submit" id="button-addon2">Enviar correo</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="px-0">
+                    <ul class="redes">
+                        <li>
+                            <a href="https://n9.cl/kaalo"><img src="img/facebook.png" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="https://n9.cl/dk8x5"><img src="img/instagram.png" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="https://n9.cl/uvfi2"><img src="img/linkedin.png" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col">
+                <div class="col-md-5 px-5" id="scene">
+                    <div data-depth="0.6">
+                        <img class="mi-foto" src="img/cgag-sinfondo.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <div class="row py-5" id="sobre-mi">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 text-center">
+                    <img src="img/cgag.jpg">
+                </div>
+                <div class="col-md-7 mt-4 text-white">
+                    <h1 class="font-weight-bold mb-3">Estudiante de Ing. Sistemas</h1>
+                    <p>Soy una persona responsable, puntual y honrada, con muchas ganas de poder plasmar en proyectos reales, los conocimientos adquiridos por medio de mi Universidad o por esfuerzo propio, cuento con sólidos valores éticos y morales, eficiente, dispuesto asumir nuevas responsabilidades, me gustan los desafíos y nuevos proyectos que la empresa pueda proponer.</p>
+                    <ul>
+                        <li>Nombre: Giancarlo Chavez</li>
+                        <li>Edad: 21</li>
+                        <li>Correo Electronico: cegaje17@gmail.com</li>
+                        <li>Telefono: (+51)928786858</li>
+                        <li>Freelance: Disponible</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row text-white py-5" id="row-conocimiento">
+        <div class="container text-center">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <h1 class="font-weight-bold titulo-conocimientos">MIS CONOCIMIENTOS</h1>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col sombra">
+                    <img src="img/tecnologia.png" >
+                    <h4 class="font-weight-bold mt-4 titulo-conocimientos">Desarrollo Web</h4>
+                    <p>Creación de sitios web para internet con diferentes herramientas como django, vue, php. Con buen desarrollo backend y frotend</p>
+                </div>
+                <div class="col sombra">
+                    <img src="img/idea-creativa.png" >
+                    <h4 class="font-weight-bold mt-4 titulo-conocimientos">Diseño Amigable</h4>
+                    <p>Proyectos destacando UX/CX para que el usuario tenga una interuacción amigable con la pagina. Una pagina con diseño amigable,  asegura la satisfacción del cliente</p>
+                </div>
+                <div class="col sombra">
+                    <img src="img/documentacion.png" >
+                    <h4 class="font-weight-bold mt-4 titulo-conocimientos">Codigo Limpio</h4>
+                    <p>Proyecto con una estructura limpia, con una intención y proposito claro al ver el codigo, tanto por el lado del frontend y backend</p>
+                </div>
+            </div>
+        </div>
+    </div>   
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <script>
+        var scene = document.getElementById('scene');
+        var parallaxInstance = new Parallax(scene);
+    </script>
+</body>
+
+</html>
